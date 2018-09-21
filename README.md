@@ -1,7 +1,8 @@
 # lynda-dl
 **A cross-platform python based utility to download courses from lynda for personal offline use.**
 
-[![lynda.png](https://i.postimg.cc/DmvfZtRP/image.png)](https://i.postimg.cc/nM3FQ3Jb/image.png)
+[![lynda.png](https://i.imgur.com/vfVRJue.png)](https://i.imgur.com/vfVRJue.png)
+[![lynda2.png](https://i.imgur.com/ZEEAtj6.png)](https://i.imgur.com/ZEEAtj6.png)
 
 ## ***Features***
 
