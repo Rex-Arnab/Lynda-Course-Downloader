@@ -18,7 +18,7 @@ getpass = GetPass()
 
 class Lynda(ProgressBar):
 
-	def __init__(self, url, username='tirthtpatel@gmail.com', password='fishtank0', organization=''):
+	def __init__(self, url, username='', password='', organization=''):
 		self.url = url
 		self.username = username
 		self.password = password
