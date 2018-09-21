@@ -1,13 +1,7 @@
-[![GitHub release](https://img.shields.io/badge/release-v0.2-brightgreen.svg?style=flat-square)](https://github.com/r0oth3x49/lynda-dl/releases/tag/v0.2)
-[![GitHub stars](https://img.shields.io/github/stars/r0oth3x49/lynda-dl.svg?style=flat-square)](https://github.com/r0oth3x49/lynda-dl/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/r0oth3x49/lynda-dl.svg?style=flat-square)](https://github.com/r0oth3x49/lynda-dl/network)
-[![GitHub issues](https://img.shields.io/github/issues/r0oth3x49/lynda-dl.svg?style=flat-square)](https://github.com/r0oth3x49/lynda-dl/issues)
-[![GitHub license](https://img.shields.io/github/license/r0oth3x49/lynda-dl.svg?style=flat-square)](https://github.com/r0oth3x49/lynda-dl/blob/master/LICENSE)
-
 # lynda-dl
 **A cross-platform python based utility to download courses from lynda for personal offline use.**
 
-[![lynda.png](https://s26.postimg.cc/bsm316qax/lynda.png)](https://postimg.cc/image/8lrjhk5ut/)
+[![lynda.png](https://i.postimg.cc/DmvfZtRP/image.png)](https://i.postimg.cc/nM3FQ3Jb/image.png)
 
 ## ***Features***
 
@@ -74,59 +68,59 @@ experience the problem? All these details will help to fix any potential bugs as
 
 You can download the latest version of lynda-dl by cloning the GitHub repository.
 
-	git clone https://github.com/r0oth3x49/lynda-dl.git
+	git clone https://github.com/Lucky-Kumar/Lynda-Course-Downloader.git
 
 
 ## ***Usage***
 
 ***Download course using user credentials***
 
-    python lynda-dl.py COURSE_URL
+    python lynda.py COURSE_URL
   
 ***OR***
 
-    python lynda-dl.py -u user@domain.com -p p4ssw0rd COURSE_URL
+    python lynda.py -u user@domain.com -p p4ssw0rd COURSE_URL
   
 ***Download course using organization's library card***
 
-    python lynda-dl.py -o organization COURSE_URL
+    python lynda.py -o organization COURSE_URL
   
 ***OR***
 
-    python lynda-dl.py -u library_card_num -p library_card_pin -o organization COURSE_URL
+    python lynda.py -u library_card_num -p library_card_pin -o organization COURSE_URL
   
   
 ***Download course to a specific location using user credentials***
 
-    python lynda-dl.py COURSE_URL -d "/path/to/directory/"
+    python lynda.py COURSE_URL -d "/path/to/directory/"
   
 ***OR***
 
-    python lynda-dl.py -u user@domain.com -p p4ssw0rd COURSE_URL -d "/path/to/directory/"
+    python lynda.py -u user@domain.com -p p4ssw0rd COURSE_URL -d "/path/to/directory/"
 
   
 ***Download course to a specific location using organization's library card***
 
-    python lynda-dl.py -o organization COURSE_URL -d "/path/to/directory/"
+    python lynda.py -o organization COURSE_URL -d "/path/to/directory/"
   
 ***OR***
 
-    python lynda-dl.py -u library_card_num -p library_card_pin -o organization COURSE_URL  -d "/path/to/directory/"
+    python lynda.py -u library_card_num -p library_card_pin -o organization COURSE_URL  -d "/path/to/directory/"
 
 ***list down course information***
 
-    python lynda-dl.py COURSE_URL --info
+    python lynda.py COURSE_URL --info
   
 ***Download with specific resolution/ quality***
 
-    python lynda-dl.py COURSE_URL -q 720
+    python lynda.py COURSE_URL -q 720
 
 ## **Advanced Usage**
 
 <pre><code>
-Author: Nasir khan (<a href="http://r0oth3x49.herokuapp.com/">r0ot h3x49</a>)
+Author: Arnab Biswas
 
-usage: lynda-dl.py [-h] [-v] [-u] [-p] [-o] [-d] [-q] [--info] [--sub-only]
+usage: lynda.py [-h] [-v] [-u] [-p] [-o] [-d] [-q] [--info] [--sub-only]
                    [--skip-sub]
                    course
 
@@ -155,7 +149,7 @@ Others:
   --skip-sub            Download course but skip captions/subtitle.
 
 Example:
-  python lynda-dl.py  COURSE_URL
-  python lynda-dl.py -o organization COURSE_URL
+  python lynda.py  COURSE_URL
+  python lynda.py -o organization COURSE_URL
 
 </code></pre>
